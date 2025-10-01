@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/devon-turner-portfolio/static/css/main.be70b897.css",
+    "main.js": "/devon-turner-portfolio/static/js/main.8112804d.js",
+    "index.html": "/devon-turner-portfolio/index.html",
+    "main.be70b897.css.map": "/devon-turner-portfolio/static/css/main.be70b897.css.map",
+    "main.8112804d.js.map": "/devon-turner-portfolio/static/js/main.8112804d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.be70b897.css",
+    "static/js/main.8112804d.js"
+  ]
+}
