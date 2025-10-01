@@ -1,37 +1,43 @@
 {
-  "name": "marko-djurdjevic-portfolio",
-  "homepage": "https://marko-0925.github.io/portfolio/",
-  "version": "0.1.0",
+  "name": "devon-turner-portfolio",
+  "version": "1.0.0",
+  "description": "Devon Turner - Senior Java Full Stack Developer Portfolio",
+  "homepage": "https://devturner923.github.io/devon-turner-portfolio/",
   "private": true,
-  "scripts": {
-    "dev": "next dev",
-    "build": "next build && node scripts/post-build.js",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d out",
-    "start": "next start",
-    "lint": "next lint"
-  },
   "dependencies": {
-    "@emailjs/browser": "^4.4.1",
-    "@react-spring/web": "^10.0.1",
-    "framer-motion": "^12.23.12",
-    "gsap": "^3.13.0",
-    "lottie-react": "^2.4.1",
-    "lucide-react": "^0.294.0",
-    "next": "14.0.4",
-    "react": "^18",
-    "react-dom": "^18"
+    "@emailjs/browser": "^4.3.2",
+    "framer-motion": "^11.0.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-scripts": "5.0.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
   },
   "devDependencies": {
-    "@types/node": "^20",
-    "@types/react": "^18",
-    "@types/react-dom": "^18",
-    "autoprefixer": "^10.0.1",
-    "eslint": "^8",
-    "eslint-config-next": "14.0.4",
-    "gh-pages": "^6.3.0",
-    "postcss": "^8",
-    "tailwindcss": "^3.3.0",
-    "typescript": "^5"
+    "gh-pages": "^6.3.0"
   }
 }
