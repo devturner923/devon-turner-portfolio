@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/devon-turner-portfolio/static/css/main.be70b897.css",
-    "main.js": "/devon-turner-portfolio/static/js/main.8112804d.js",
+    "main.js": "/devon-turner-portfolio/static/js/main.a42387de.js",
     "index.html": "/devon-turner-portfolio/index.html",
     "main.be70b897.css.map": "/devon-turner-portfolio/static/css/main.be70b897.css.map",
-    "main.8112804d.js.map": "/devon-turner-portfolio/static/js/main.8112804d.js.map"
+    "main.a42387de.js.map": "/devon-turner-portfolio/static/js/main.a42387de.js.map"
   },
   "entrypoints": [
     "static/css/main.be70b897.css",
-    "static/js/main.8112804d.js"
+    "static/js/main.a42387de.js"
   ]
 }
