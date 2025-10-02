@@ -38,7 +38,7 @@ const Contact = () => {
           from_email: formData.email,
           subject: formData.subject,
           message: formData.message,
-          to_email: 'devturner923@gmail.com'
+          to_email: 'devon.turn@outlook.com'
         },
         publicKey
       );
@@ -76,15 +76,15 @@ const Contact = () => {
             
             <div className="contact-item">
               <i className="fas fa-envelope"></i>
-              <span>devturner923@gmail.com</span>
+              <span>devon.turn@outlook.com</span>
             </div>
             <div className="contact-item">
               <i className="fas fa-phone"></i>
-              <span>+1 (225) 245-3925</span>
+              <span>+1 (225) 502-8060</span>
             </div>
             <div className="contact-item">
               <i className="fas fa-map-marker-alt"></i>
-              <span>Louisiana, United States</span>
+              <span>7163 Bobwhite Rd, Saint Francisville, LA, 70775</span>
             </div>
           </div>
           

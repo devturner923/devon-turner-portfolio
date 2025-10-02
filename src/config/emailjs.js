@@ -7,7 +7,7 @@ export const EMAILJS_CONFIG = {
 
 // EmailJS Template Variables
 export const EMAILJS_TEMPLATE_PARAMS = {
-  to_email: 'devturner923@gmail.com',
+  to_email: 'devon.turn@outlook.com',
   from_name: '',
   from_email: '',
   subject: '',
